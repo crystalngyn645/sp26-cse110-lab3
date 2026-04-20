@@ -8,6 +8,7 @@ body {
 
 h1{
     color: rgb(73, 97, 176);
+    
 }
 
 h2{
@@ -22,6 +23,8 @@ nav a{
     color: lightseagreen;
     text-decoration: underline;
 }
+
+
 
 /*addign margin/ box model*/
 
@@ -73,6 +76,24 @@ fieldset {
     gap: 20px;
     justify-items: center;
 }
+
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
 
 /* Pseudo-classes */
 a:hover {
