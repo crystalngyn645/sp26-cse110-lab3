@@ -1,9 +1,11 @@
 
 /* background */
 body {
-    background-color: #a6c2fc !important;
+    background-color: #a6c2fc ;
     font-family: "Roboto", sans-serif;
     
-    
-    /*"Roboto", sans-serif;#f0b9ea*/
+}
+
+h1{
+    color: rgb(73, 97, 176);
 }
