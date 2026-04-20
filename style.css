@@ -74,5 +74,12 @@ fieldset {
     justify-items: center;
 }
 
+/* Pseudo-classes */
+a:hover {
+    color: darkblue;
+}
 
+button:active {
+    background-color: lightgray;
+}
 
