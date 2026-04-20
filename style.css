@@ -104,9 +104,27 @@ img {
     display: block;
 
 }
+/* sizing */
+width {
+    width: 100%;
+    height: auto;
+}
+
+
+/* position */
+
+nav{
+    width: 300px;
+    max-width: 100%;
+    height: auto; 
+}
+
+footer{
+    position: relative; 
+}
 
 button {
-    display: inline_block;
+    display: inline-block;
 }
 
 /* Pseudo-classes */
