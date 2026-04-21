@@ -104,9 +104,28 @@ img {
     display: block;
 
 }
+
+button {
+    display: inline-block;
+}
 /* sizing */
-width {
-    width: 100%;
+img{
+    width: 300px;
+    max-width: 100%;
+    min-width: 200px;
+    height: auto; 
+}
+
+video 
+{
+    width : 400px; 
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="text"] {
+    width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -114,18 +133,17 @@ width {
 /* position */
 
 nav{
-    width: 300px;
-    max-width: 100%;
-    height: auto; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 footer{
     position: relative; 
 }
 
-button {
-    display: inline-block;
-}
+
 
 /* Pseudo-classes */
 a:hover {
@@ -136,3 +154,27 @@ button:active {
     background-color: lightgray;
 }
 
+/*child combinator */
+nav > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+/*adjacent sibling combinator */
+hr + section {
+    background-color: #edf3ff;
+}
+
+
+
+/*general sibling combinator */
+hr ~ section {
+    border-color: #5a6fb8;
+}
+
+/* :has() selector*/
+
+section:has(img) {
+    background-color: #e8f0ff;
+}
