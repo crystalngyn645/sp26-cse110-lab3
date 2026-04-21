@@ -133,10 +133,8 @@ input[type="text"] {
 /* position */
 
 nav{
-    position: fixed; 
+    position: sticky; 
     top: 0;
-    left: 0;
-    right: 0;
 }
 
 footer{
@@ -192,15 +190,15 @@ body{
 }
 
 .highlight {
-    background-color: var(--favcolor, hsl(204, 100%, 74%) );
+    background-color: var(--favcolor, lightyellow);
 
 }
  
 /* combining selectors */
 
 p.highlight {
-    passing: 10px;
-    border_radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 /* nested selectors */
@@ -217,4 +215,36 @@ nav{
         flex-direction: column;
         align-items: flex-start;
     }
+}
+
+
+footer {
+    background-color: #dfe8ff;
+}
+
+summary {
+    color: color(display-p3 0.3 0.4 0.8);
+}
+
+
+nav {
+    background-color: color-mix(in srgb, lightblue 70%, white 30%);
+}
+
+/* fonts */
+h1 {
+    font-size: 2rem;
+}
+
+video {
+    border-width: 2pt;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+
+section {
+    max-width: 15cm;
 }
