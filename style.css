@@ -201,7 +201,7 @@ p.highlight {
     border-radius: 5px;
 }
 
-/* nested selectors */
+/* nested selectors, has ERROR?? */
 nav{
     a{
         font-size: 18px;
