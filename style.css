@@ -110,7 +110,7 @@ button {
 }
 /* sizing */
 img{
-    width: 300px;
+    width: 200px;
     max-width: 100%;
     min-width: 200px;
     height: auto; 
@@ -118,7 +118,7 @@ img{
 
 video 
 {
-    width : 400px; 
+    width : 200px; 
     max-width: 100%;
     height: auto;
 }
@@ -178,3 +178,10 @@ hr ~ section {
 section:has(img) {
     background-color: #e8f0ff;
 }
+
+/*.class selector */
+.highlight {
+    
+    background-color: hsl(157, 34%, 66%);
+}
+
