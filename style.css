@@ -185,3 +185,13 @@ section:has(img) {
     background-color: hsl(157, 34%, 66%);
 }
 
+/* fallback */
+:body{
+    --accent-color: hsl(158, 30%, 27%);
+
+}
+
+.highlight {
+    background-color: var(--accent-color, hsl(158, 30%, 27%));
+}
+
