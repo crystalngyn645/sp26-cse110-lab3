@@ -164,31 +164,31 @@ nav > ul {
 
 /*adjacent sibling combinator */
 hr + section {
-    background-color: #edf3ff;
+    background-color: #f3b57c;
 }
 
 
 
 /*general sibling combinator */
 hr ~ section {
-    border-color: #5a6fb8;
+    border-color: #b87b5a;
 }
 
 /* :has() selector*/
 
 section:has(img) {
-    background-color: #e8f0ff;
+    background-color: #faa5f3;
 }
 
 /*.class selector */
 .highlight {
     
-    background-color: hsl(157, 34%, 66%);
+    background-color: hsl(157, 29%, 56%);
 }
 
 /* fallback */
 body{
-    --favcolor: hsl(204, 100%, 74%);
+    --favcolor: hsl(204, 75%, 30%);
 
 }
 
@@ -222,7 +222,7 @@ nav{
 
 
 footer {
-    background-color: #dfe8ff;
+    background-color: #324574;
 }
 
 summary {
@@ -231,7 +231,7 @@ summary {
 
 
 nav {
-    background-color: color-mix(in srgb, lightblue 70%, white 30%);
+    background-color: color-mix(in srgb, rgb(113, 177, 93) 70%, rgb(176, 64, 64) 30%);
 }
 
 /* fonts */
